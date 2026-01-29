@@ -16,7 +16,7 @@ public class ATM {
 	        System.out.println("      WELCOME TO ATM");
 	        System.out.println("=================================");
 	        System.out.println("Please insert your card...");
-	        System.out.println("Card inserted successfully ✅");
+	        System.out.println("Card inserted successfully");
 
 	     
 	        System.out.println("\nSelect Language:");
@@ -30,7 +30,7 @@ public class ATM {
 	            System.out.print("\nCreate your 4-digit PIN: ");
 	            pin = sc.nextInt();
 	            pinSet = true;
-	            System.out.println("PIN created successfully ✅");
+	            System.out.println("PIN created successfully");
 	        }
 
 	       
@@ -39,7 +39,7 @@ public class ATM {
 	            System.out.print("\nEnter your PIN: ");
 	            enteredPin = sc.nextInt();
 	            if (enteredPin != pin) {
-	                System.out.println("Incorrect PIN ❌ Try again.");
+	                System.out.println("Incorrect PIN Try again.");
 	            }
 	        } while (enteredPin != pin);
 
@@ -94,4 +94,5 @@ public class ATM {
 		
 
 	}
+
 
